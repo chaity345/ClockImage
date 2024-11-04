@@ -1,0 +1,50 @@
+.hero{
+    background-image: url("images/clockimage.png");
+    background-size: 100% 100%;
+    /* here 25% Left for background image set in the middle */
+     margin:20px 20px 20px 25%; 
+     background-color: rgba(192, 101, 162, 0.5); 
+    /* set fixed height and width for get small image */
+     width:900px;
+    height:700px; 
+
+    position:relative;
+    
+}
+.I{
+    width: 25%;
+    height:25%;
+}
+.hero>.hand1{
+    position: absolute;
+     left:50%; 
+    top:46%;
+    
+    
+
+}
+.hero>.hand2{
+     position:absolute; 
+     /* left:50%;
+     top:46%; */
+     /* use transform property to straight up the angle
+     -90deg to up the angle */
+     transform: rotate(-90deg);
+     /* top for set the position properly */
+     top:-22%;
+     
+
+     /* animation: moveBox1 2s;
+ */
+    
+    
+}
+/* @keyframes moveBox1 {
+    0%{
+        transform: rotate(-90deg);
+        bottom:50%;
+        right:46%;
+    }
+    
+} */
+
